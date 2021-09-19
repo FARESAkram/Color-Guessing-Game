@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Color guessing</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Welcome To a Guessing Game</h1>
+    <h1>you will be given a rgb(red,green,blue) and you have to guess the right color</h1>
+    <h1 id="colorgb" ></h1>
+    <hr>
+    <div class="container">
+        <button>Start</button>
+        <button style="display: none;">Reset</button>
+        <select>
+            <option>Easy</option>
+            <option>Medium</option>
+            <option>Hard</option>
+        </select>
+    </div>
+    <hr>
+    <div class="Box">
+        <div class="cell" ></div>
+        <div class="cell" ></div>
+        <div class="cell" ></div>
+        <div class="cell" ></div>
+        <div class="cell" ></div>
+        <div class="cell" ></div>
+        <div class="cell" ></div>
+        <div class="cell" ></div>
+        <div class="cell" ></div>
+    </div>
+    <br>
+    <div class="footer">
+        <table>
+            <th>Score: </th>
+            <th><textarea id="Score" disabled ></textarea></th>
+            <th>High Score: </th>
+            <th><textarea id="HighScore" disabled ></textarea></th>
+        </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
